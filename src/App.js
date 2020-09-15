@@ -11,10 +11,10 @@ class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="App">
+                <div  className="App">
                     <h1 className="Torneio">Torneio Pokémon</h1>
 
-                    <Link to="/">Início</Link> | <Link to="/lista">Lista</Link>
+                    <Link to="/">Torneio</Link> | <Link to="/lista">Times</Link>
 
                     <Route path="/" exact component={Home}></Route>
                     <Route path="/lista" component={List}></Route>
