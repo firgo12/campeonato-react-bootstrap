@@ -1,26 +1,26 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Headers from './Header/Headers';
+import Article from './Body/Article';
+import Footer from './Footer/Footer';
+//import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
-import './App.scss';
+//import { Button } from 'reactstrap';
 
-import Home from './Home';
-import List from './Lista';
+//import Home from './Home';
+//import List from './Lista';
 
 class App extends React.Component {
     render() {
         return (
-            <BrowserRouter>
-                <div  className="App">
-                    <h1 className="Torneio">Torneio Pokémon</h1>
-
-                    <Link to="/">Torneio</Link> | <Link to="/lista">Times</Link>
-
-                    <Route path="/" exact component={Home}></Route>
-                    <Route path="/lista" component={List}></Route>
-                </div>
-            </BrowserRouter>
+        <>
+            <div>
+                <Headers />
+                <Article />
+                <Footer />
+            </div>
+        </>
         );
+
     }
 }
 

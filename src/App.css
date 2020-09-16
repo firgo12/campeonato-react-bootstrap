@@ -5,3 +5,16 @@
 .App .meu-app {
   color: #0000ff;
 }
+.busca {
+ float: right;
+}
+.titulo-torneio {
+  text-align: center;
+}
+.pokemon-logo {
+	width: 15%;
+	margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  justify-content: center;
+}
