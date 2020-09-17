@@ -3,36 +3,50 @@ import { Table } from 'reactstrap';
 
 const Footer = (props) => {
   return (
+    <>
+    <div class="Footer">
+
     <Table borderless>
       <thead>
-        <tr>
           <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-        </tr>
+          <th>Primeiro Nome</th>
+          <th>Sobrenome</th>
+          <th>Nome no Git</th>
       </thead>
       <tbody>
-        <tr>
           <th scope="row">1</th>
           <td>Guilherme</td>
           <td>Cunha</td>
           <td>Firgo12</td>
-        </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td>Giovanni</td>
+          <td>Paulino</td>
+          <td>Giovanni-Perrota</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <td>Igor</td>
+          <td>Aldivan</td>
+          <td>Igor-Aldivan77</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Félix</td>
+          <td>Castro</td>
+          <td>felix-03</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Juan</td>
+          <td>Faria</td>
+          <td>Juan Victor Angelo de Faria</td>
         </tr>
       </tbody>
     </Table>
+
+    </div>
+    </>
   );
 }
 

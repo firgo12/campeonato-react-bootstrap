@@ -1,6 +1,5 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
-// import CarouselPage from 'CarouselPage';
 
 const Article = (props) => {
   return (
