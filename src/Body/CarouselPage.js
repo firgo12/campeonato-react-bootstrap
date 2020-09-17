@@ -22,7 +22,7 @@ export class BootstrapCarousel extends Component {
                                  <Carousel.Item style={{'height':"400px"}}>  
                                  <img style={{'height':"400px"}}  
                                    className="d-block w-100"  
-                                    src={'https://memestatic.fjcdn.com/large/pictures/ea/44/ea447b_7565997.jpg'}    />  
+                                    src={'https://i.redd.it/3gn5mjjvt2l41.jpg'}    />  
                                        <Carousel.Caption>  
                                    <h3>Blue</h3>  
                                       </Carousel.Caption>  
