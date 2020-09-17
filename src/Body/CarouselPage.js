@@ -14,7 +14,7 @@ export class BootstrapCarousel extends Component {
                          <Carousel.Item style={{'height':"300px"}} >  
                          <img style={{'height':"300px"}}  
                          className="d-block w-100"  
-                        src={'assets/img/img2.jpg'}  />  
+                        src={'https://pbs.twimg.com/media/ERyfqbMUwAUuCqv.jpg'}  />  
                            <Carousel.Caption>  
                              <h3>Red </h3>  
                                  </Carousel.Caption>  
