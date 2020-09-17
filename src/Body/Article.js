@@ -6,7 +6,6 @@ const Article = (props) => {
   return (
     <>
     <div>
-      {/* <CarouselPage /> */}
 
       <Jumbotron fluid>
         <Container fluid>
@@ -15,8 +14,8 @@ const Article = (props) => {
         </Container>
       </Jumbotron>
 
-
     </div>
+
     </>
   );
 };

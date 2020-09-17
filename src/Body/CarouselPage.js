@@ -1,50 +1,44 @@
-// import React from "react";
-// import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
-// "mdbreact";
-
-// const CarouselPage = () => {
-//   return (
-//     <MDBContainer>
-//       <MDBCarousel
-//         activeItem={1}
-//         length={3}
-//         showControls={false}
-//         showIndicators={false}
-//         className="z-depth-1"
-//         slide
-//       >
-//         <MDBCarouselInner>
-//           <MDBCarouselItem itemId="1">
-//             <MDBView>
-//               <img
-//                 className="d-block w-100"
-//                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
-//                 alt="First slide"
-//               />
-//             </MDBView>
-//           </MDBCarouselItem>
-//           <MDBCarouselItem itemId="2">
-//             <MDBView>
-//               <img
-//                 className="d-block w-100"
-//                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg"
-//                 alt="Second slide"
-//               />
-//             </MDBView>
-//           </MDBCarouselItem>
-//           <MDBCarouselItem itemId="3">
-//             <MDBView>
-//               <img
-//                 className="d-block w-100"
-//                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
-//                 alt="Third slide"
-//               />
-//             </MDBView>
-//           </MDBCarouselItem>
-//         </MDBCarouselInner>
-//       </MDBCarousel>
-//     </MDBContainer>
-//   );
-// }
-
-// export default CarouselPage;
+import React, { Component } from 'react'  
+import Carousel from 'react-bootstrap/Carousel'  
+export class BootstrapCarousel extends Component {  
+        render() {  
+  
+                return (  
+                        <div>  
+                         <div class='container-fluid' >  
+                          <div className="row title" >   
+                         </div>  
+                         </div>  
+                         <div className='container-fluid' >  
+                         <Carousel>  
+                         <Carousel.Item style={{'height':"300px"}} >  
+                         <img style={{'height':"300px"}}  
+                         className="d-block w-100"  
+                        src={'assets/img/img2.jpg'}  />  
+                           <Carousel.Caption>  
+                             <h3>Red </h3>  
+                                 </Carousel.Caption>  
+                                 </Carousel.Item  >  
+                                 <Carousel.Item style={{'height':"300px"}}>  
+                                 <img style={{'height':"300px"}}  
+                                   className="d-block w-100"  
+                                    src={'assets/img/img1.jpg'}    />  
+                                       <Carousel.Caption>  
+                                   <h3>Blue</h3>  
+                                      </Carousel.Caption>  
+                                         </Carousel.Item>  
+                                       <Carousel.Item style={{'height':"300px"}}>  
+                                       <img style={{'height':"300px"}}  
+                                        className="d-block w-100"  
+                                         src={'assets/img/img3.jpg'}   />  
+                                        <Carousel.Caption>  
+                                          <h3>Green</h3>  
+                                          </Carousel.Caption>  
+                                         </Carousel.Item>  
+                                        </Carousel>  
+                                </div>  
+                        </div>  
+                )  
+        }  
+}  
+export default BootstrapCarousel  
