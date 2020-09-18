@@ -39,7 +39,7 @@ const Ranking = (props) => {
       </tr>
       <tr>
         <th scope="row">6º</th>
-        <td>Gary</td>
+        <td>Blue</td>
         <td>1100</td>
       </tr>
       <tr>
@@ -69,12 +69,12 @@ const Ranking = (props) => {
       </tr>
       <tr>
         <th scope="row">12º</th>
-        <td>Kenta</td>
+        <td>Wally</td>
         <td>500</td>
       </tr>
       <tr>
         <th scope="row">13º</th>
-        <td>Paul</td>
+        <td>Green</td>
         <td>400</td>
       </tr>
       <tr>

@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Ranking from '../Body/Ranking';
+import Times from '../componente1/Times';
+import Nos from '../componente1/AboutUs';
 import {
     Collapse,
     Navbar,
@@ -21,6 +25,7 @@ const Headers = (props) => {
 
     return (
     <>
+    <BrowserRouter>
         <div>
             <Navbar color="primary" dark expand="md">
                 <NavbarBrand href="/">Liga Pokmon</NavbarBrand>
@@ -29,9 +34,6 @@ const Headers = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="https://celke.com.br/">Torneio</NavLink>
-                        </NavItem>
-                        <NavItem>
                             <NavLink href="https://github.com/firgo12/campeonato-react-bootstrap">Repositório</NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
@@ -39,25 +41,33 @@ const Headers = (props) => {
                                 Opções
                 </DropdownToggle>
                             <DropdownMenu right>
+
+                            <DropdownItem>
+                                    <Link to ="/">Torneio </Link>
+                     </DropdownItem>
+
                                 <DropdownItem>
-                                    Ranking
+                                    <Link to ='/Ranking'> Ranking </Link>
                   </DropdownItem>
+                  
                                 <DropdownItem>
-                                    Times
+                                    <Link to ='/Times'>  Times     </Link>
                   </DropdownItem>
                                 <DropdownItem divider />
                                 <DropdownItem>
-                                    About Us
+                                  <Link to ='/AboutUs'> About Us </Link>  
                   </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </Nav>
+                    
                     <NavbarText></NavbarText>
                     <input type="search" class="search-input" placeholder="  Buscar Treinador..." id="nome"></input>
                     <button class="search-button"><b>Buscar</b></button>
                 </Collapse>
             </Navbar>
         </div>
+        </BrowserRouter>
     </>
     );
 }
