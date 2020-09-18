@@ -22,7 +22,7 @@ const Footer = (props) => {
           <th scope="row">2</th>
           <td>Giovanni</td>
           <td>Paulino</td>
-          <td>Giovanni-Perrota</td>
+          <td>Giovanni-Perrotta</td>
         </tr>
         <tr>
           <th scope="row">3</th>
