@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import BootstrapCarousel from '../Body/CarouselPage';
+import lista from '../componente1/lista.png'
 
 
 const Article = (props) => {
@@ -15,7 +16,11 @@ const Article = (props) => {
         </Container>
       </Jumbotron>
     </div>
-      
+    
+      <img class ='lista'src = {lista}></img>
+    
+     
+     
     </>
   );
 };
