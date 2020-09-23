@@ -17,6 +17,7 @@ class App extends React.Component {
         <BrowserRouter>
             <div>
                 <Headers />
+
                 <Route path="/" exact component={Article}></Route>
                 <Route path="/Ranking" exact component={Ranking}></Route>
                 <Route path="/Times" exact component={Times}></Route>
