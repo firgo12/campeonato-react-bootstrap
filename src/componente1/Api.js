@@ -5,7 +5,7 @@ class Api extends React.Component {
         Resposta: []
     };
     componentDidMount() {
-        fetch('https://api.sheety.co/21304639aa0f1abef5bde8395b1c48df/planilhaSemT%C3%ADtulo/campeonato')
+        fetch('https://api.sheety.co/efddf6ea6f78075098c875d7de247a81/ranking/campeonato')
         .then(Response => Response.json())
         .then(Response => {
             this.setState({
@@ -23,12 +23,38 @@ render() {
             <div></div>
             <ul>
                 {this.state.Resposta.map(item => (
-                    <li key={item.id}>
-                        <p><b>Treinador:</b> {item.treinadores}</p>
+                     <li key={item.id}>
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    Treinador
+                                </th>
+                                <th scope="col">
+                                    Classificação
+                                </th>
+                                <th scope="col">
+                                    Pontos
+                                </th>
+                            </tr>
+                            </thead>
+                           
+                            <tbody>
+                                <tr>
+                                <th scope ="row"> {item.treinadores}</th>
+                                <td> {item.classificação} </td>
+                                <td> {item.pontos}</td>
+                                </tr>
+                            </tbody>
+                        
+                        
+                    
+                    </table>
                     </li>
                 ))}
             </ul>
         </div>
+        
     );
                 }
 }
