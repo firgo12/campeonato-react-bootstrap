@@ -1,7 +1,8 @@
 import React from 'react';
 import { Table } from 'reactstrap';
 import Api from '../componente1/Api'
-const Ranking = (props) => {
+class Ranking extends React.Component {
+  render () {
   return (
     <>
 
@@ -9,6 +10,7 @@ const Ranking = (props) => {
 
     </>
   );
+  }
 }
 
 export default Ranking;

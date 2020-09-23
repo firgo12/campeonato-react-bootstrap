@@ -25,7 +25,7 @@ const Headers = (props) => {
 
     return (
         <>
-            <BrowserRouter>
+         
                 <div>
                     <Navbar color="primary" dark expand="md">
                         <NavbarBrand href="/">PokeChampions</NavbarBrand>
@@ -67,7 +67,7 @@ const Headers = (props) => {
                         </Collapse>
                     </Navbar>
                 </div>
-            </BrowserRouter>
+          
         </>
     );
 }

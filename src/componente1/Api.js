@@ -16,15 +16,11 @@ class Api extends React.Component {
 
 render() {
     return(
-        <div className= "container">
-            <h1>
-                Torneio Pokémon!
-            </h1>
-            <div></div>
+
             <ul>
                 {this.state.Resposta.map(item => (
                      <li key={item.id}>
-                        <table class="table">
+                        <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">
@@ -41,7 +37,7 @@ render() {
                            
                             <tbody>
                                 <tr>
-                                <th scope ="row"> {item.treinadores}</th>
+                                <td> {item.treinadores}</td>
                                 <td> {item.classificação} </td>
                                 <td> {item.pontos}</td>
                                 </tr>
@@ -53,7 +49,7 @@ render() {
                     </li>
                 ))}
             </ul>
-        </div>
+    
         
     );
                 }
