@@ -1,0 +1,100 @@
+{
+    "campeonato": [
+      {
+        "treinadores": "Ash",
+        "classificação": 8,
+        "pontos": 6500,
+        "id": 2
+      },
+      {
+        "treinadores": "Brock",
+        "classificação": 14,
+        "pontos": 3500,
+        "id": 3
+      },
+      {
+        "treinadores": "Blue",
+        "classificação": 4,
+        "pontos": 8500,
+        "id": 4
+      },
+      {
+        "treinadores": "Misty",
+        "classificação": 11,
+        "pontos": 5000,
+        "id": 5
+      },
+      {
+        "treinadores": "Red",
+        "classificação": 1,
+        "pontos": 10000,
+        "id": 6
+      },
+      {
+        "treinadores": "May",
+        "classificação": 13,
+        "pontos": 4000,
+        "id": 7
+      },
+      {
+        "treinadores": "Dawn",
+        "classificação": 12,
+        "pontos": 4500,
+        "id": 8
+      },
+      {
+        "treinadores": "Brendan",
+        "classificação": 2,
+        "pontos": 9500,
+        "id": 9
+      },
+      {
+        "treinadores": "Wally",
+        "classificação": 5,
+        "pontos": 8000,
+        "id": 10
+      },
+      {
+        "treinadores": "Green",
+        "classificação": 7,
+        "pontos": 7000,
+        "id": 11
+      },
+      {
+        "treinadores": "Ethan",
+        "classificação": 6,
+        "pontos": 7500,
+        "id": 12
+      },
+      {
+        "treinadores": "Giovanni",
+        "classificação": 10,
+        "pontos": 5500,
+        "id": 13
+      },
+      {
+        "treinadores": "Jessie",
+        "classificação": 16,
+        "pontos": 2500,
+        "id": 14
+      },
+      {
+        "treinadores": "James",
+        "classificação": 15,
+        "pontos": 3000,
+        "id": 15
+      },
+      {
+        "treinadores": "Whitney",
+        "classificação": 9,
+        "pontos": 6000,
+        "id": 16
+      },
+      {
+        "treinadores": "Lance",
+        "classificação": 3,
+        "pontos": 9000,
+        "id": 17
+      }
+    ]
+  }

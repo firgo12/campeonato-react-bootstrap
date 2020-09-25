@@ -16,8 +16,8 @@ class Api extends React.Component {
 
 render() {
     return(
-
-            <ul>
+        <>
+        <ul>
                 {this.state.Resposta.map(item => (
                      <li key={item.id}>
                         <table class="table table-striped">
@@ -42,15 +42,11 @@ render() {
                                 <td> {item.pontos}</td>
                                 </tr>
                             </tbody>
-                        
-                        
-                    
                     </table>
                     </li>
                 ))}
             </ul>
-    
-        
+            </>
     );
                 }
 }

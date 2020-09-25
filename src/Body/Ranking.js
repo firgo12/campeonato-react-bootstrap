@@ -5,7 +5,7 @@ class Ranking extends React.Component {
   render () {
   return (
     <>
-
+      
     <Api />
 
     </>
